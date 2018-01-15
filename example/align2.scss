@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    border: 1px solid #666;
+    width: 400px;
+    height: 160px;
+
+    flex-direction: column; /* 생략 가능 */
+    justify-content: center;
+}

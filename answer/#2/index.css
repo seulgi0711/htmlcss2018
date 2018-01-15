@@ -1,0 +1,36 @@
+/* display와 flex-direction을 이용해서 layout의 방향을 배치해주세요 */
+
+.toast-app {
+    background-color: #dddddd;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .toast-app__header {
+    background-color: palevioletred;
+  }
+  
+  .toast-app__contents {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .toast-app__nav {
+    background-color: mediumseagreen;
+  }
+  
+  .toast-app__main-contents {
+    background-color: papayawhip;
+  }
+  
+  .toast-app__footer {
+    background-color: darkorange;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }

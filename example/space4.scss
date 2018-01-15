@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row; /* 생략 가능 */
+}
+
+.left {
+    background-color: #03A9FC;
+}
+  
+.center {
+    background-color: mediumseagreen;
+}
+  
+.right {
+    background-color: palevioletred;
+}

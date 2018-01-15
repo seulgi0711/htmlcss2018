@@ -1,0 +1,11 @@
+.menu-wrapper { /* ul 엘리먼트 */
+  display: flex;
+  flex-direction: column;
+  list-style: none; /* 불릿 제거 */
+  padding: 0;
+  margin: 0;
+}
+.menu > a {
+  color: #000; /* 파란 글자색 변경 */
+  text-decoration: none; /* 밑줄 제거 */
+}
